@@ -15,7 +15,6 @@ const useTransitionNavigate = () => {
           flushSync(() => {
             // @ts-expect-error xxx
             navigate(...args)
-            console.log("===>")
           })
           resolve()
         }, 1000)
